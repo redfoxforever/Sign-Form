@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --body-color: #CDEAFC;
+    --sign-box-bg: #B2DDFA;
+    --txt-color: #39454D;
+    --border-color: #5D9FC6;
+    --submit-bg: #397A96;
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--body-color);
+}
+
+.container {
+    max-width: 470px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.sign-div {
+    max-width: 741px;
+    width: 100%;
+    margin: 80px auto; 
+    padding: 86px 149px;
+    background: var(--sign-box-bg);
+    border-radius: 54.7696px;
+    border: 0.805435px solid var(--border-color);
+}
+
+.sign-title {
+    font-size: 38px;
+    font-weight: 800;
+    color: var(--txt-color);
+}
+
+.sign-desc {
+    font-size: 20px;
+    color: var(--txt-color);
+    font-weight: 600;
+}
+
+.username__box {
+    margin: 40px 0 35px 0;
+}
+
+.username-title {
+    font-size: 19px;
+    color: var(--txt-color);
+    font-weight: 600;
+}
+
+#username-input {
+    width: 100%;
+    height: 70px;
+    outline: none;
+    border: 2.4163px solid var(--border-color);
+    padding-left: 22px;
+    font-size: 19px;
+    color: var(--txt-color);
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 12.887px;
+    margin: 7px 0;
+}
+
+.username-desc {
+    font-size: 17px;
+    color: var(--txt-color);
+    font-weight: 400;
+}
+
+
+.password__box {
+    margin: 0  0 40px;
+}
+
+.password__title {
+    font-size: 19px;
+    color: var(--txt-color);
+    font-weight: 600;
+}
+
+#password-input {
+    width: 100%;
+    height: 70px;
+    outline: none;
+    border: 2.4163px solid var(--border-color);
+    padding-left: 22px;
+    font-size: 19px;
+    color: var(--txt-color);
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 12.887px;
+    margin: 7px 0;
+}
+
+.password-desc {
+    font-size: 17px;
+    color: var(--txt-color);
+    font-weight: 400;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 78px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0) 100%), var(--submit-bg);
+    box-shadow: 0px 6.44348px 1.61087px rgba(20, 42, 52, 0.8);
+    color: #E6F7FF;
+    font-size: 19px;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    border-radius: 16.1087px;
+    cursor: pointer;
+}
